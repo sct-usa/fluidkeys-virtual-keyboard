@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Test Page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            .input-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            input, textarea {
+                padding: 10px;
+                font-size: 16px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            textarea {
+                resize: vertical;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="input-grid">
+            <input type="text" name="text" placeholder="Click here to open the keyboard" />
+            <input type="password" name="password" placeholder="Click here to open the password keyboard" />
+            <input type="email" name="email" placeholder="Click here to open the email keyboard" />
+            <input type="color" name="color" placeholder="Click here to open the color keyboard" />
+            <input type="date" name="date" placeholder="Click here to open the date keyboard" />
+            <input type="number" name="number" step="any" placeholder="Click here to open the number keyboard" />
+            <input type="search" name="search" placeholder="Click here to open the search keyboard" />
+            <input type="tel" name="tel" placeholder="Click here to open the telephone keyboard" />
+            <input type="url" name="url" placeholder="Click here to open the URL keyboard" />
+            <input type="week" name="week" placeholder="Click here to open the week keyboard" />
+            <input type="time" name="time" placeholder="Click here to open the time keyboard" />
+            <input type="month" name="month" placeholder="Click here to open the month keyboard" />
+            <input type="datetime-local" name="datetime-local" placeholder="Click here to open the datetime-local keyboard" />
+            <textarea name="textarea" placeholder="Click here to open the keyboard"></textarea>
+        </div>
+    </body>
+</html

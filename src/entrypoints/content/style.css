@@ -1,0 +1,139 @@
+.fluidkeys {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transform: translateY(100%) translateX(-50%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.fluidkeys.numeric,
+.fluidkeys.telephone {
+  max-width: 300px;
+}
+
+.fluidkeys.numeric .hg-button,
+.fluidkeys.telephone .hg-button {
+  flex: 1;
+}
+
+.fluidkeys.visible {
+  transform: translateY(0) translateX(-50%);
+}
+
+/* Apple Theme */
+.fluidkeys.apple-theme {
+  background-color: #d0d3da;
+  border-radius: 5px;
+}
+
+.fluidkeys.apple-theme .hg-button,
+.fluidkeys.apple-theme .hg-button.hg-button-space {
+  background: #ffffff;
+  color: #000000;
+}
+
+.fluidkeys.apple-theme .hg-functionBtn {
+  background: #a9b0bb;
+  color: #000000;
+}
+
+.fluidkeys.apple-theme .hg-button:active {
+  background: #ffffff;
+  color: #000000;
+}
+
+.fluidkeys.apple-theme.hg-layout-caps .hg-button.hg-button-lock,
+.fluidkeys.apple-theme.hg-layout-shift .hg-button.hg-button-shift {
+  color: black;
+  background: #ffffff;
+}
+
+.fluidkeys.apple-theme .hg-row:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.fluidkeys.apple-theme .hg-row .hg-button-container,
+.fluidkeys.apple-theme .hg-row .hg-button:not(:last-child) {
+  margin-right: 7px;
+}
+
+.fluidkeys.apple-theme .hg-button {
+  height: 40px;
+  border: none;
+}
+
+.fluidkeys.apple-theme .hg-functionBtn {
+  font-size: 12px;
+}
+
+.fluidkeys.apple-theme .hg-button.hg-button-bksp:last-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-enter:last-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-shift:last-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-tab:last-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-alt:last-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-lock:last-of-type {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.fluidkeys.apple-theme .hg-button.hg-button-bksp:first-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-enter:first-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-shift:first-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-tab:first-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-alt:first-of-type,
+.fluidkeys.apple-theme .hg-button.hg-button-lock:first-of-type {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.fluidkeys.apple-theme .hg-button.hg-button-space {
+  flex-grow: 10;
+}
+
+@media (prefers-color-scheme: dark) {
+  .fluidkeys.apple-theme {
+    background-color: #2b2b2b;
+  }
+  .fluidkeys.apple-theme .hg-button,
+  .fluidkeys.apple-theme .hg-button.hg-button-space {
+    background: #6b6b6b;
+    color: #ffffff;
+  }
+  .fluidkeys.apple-theme .hg-functionBtn {
+    background: #464646;
+    color: #ffffff;
+  }
+  .fluidkeys.apple-theme .hg-button:active {
+    background: #d4d4d4;
+    color: #000000;
+  }
+  .fluidkeys.apple-theme.hg-layout-caps .hg-button.hg-button-lock,
+  .fluidkeys.apple-theme.hg-layout-shift .hg-button.hg-button-shift {
+    color: #000000;
+    background: #d4d4d4;
+  }
+}
+
+/* Apple Theme - Dark mode */
+.fluidkeys.apple-theme.dark-mode {
+  background-color: #2b2b2b;
+}
+.fluidkeys.apple-theme.dark-mode .hg-button {
+  background: #6b6b6b;
+  color: white;
+}
+.fluidkeys.apple-theme.dark-mode .hg-functionBtn {
+  background: #464646;
+  color: white;
+}
+.fluidkeys.apple-theme.dark-mode .hg-button:active {
+  background: #d4d4d4;
+  color: black;
+}
+.fluidkeys.apple-theme.dark-mode.hg-layout-caps .hg-button.hg-button-lock,
+.fluidkeys.apple-theme.dark-mode.hg-layout-shift .hg-button.hg-button-shift {
+  color: black;
+  background: #d4d4d4;
+}

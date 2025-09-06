@@ -1,0 +1,66 @@
+.fluidkeys.apple-light {
+  background-color: #d0d3da;
+  border-radius: 5px;
+}
+
+.fluidkeys.apple-light .hg-button,
+.fluidkeys.apple-light .hg-button.hg-button-space {
+  background: #ffffff;
+  color: #000000;
+}
+
+.fluidkeys.apple-light .hg-functionBtn {
+  background: #a9b0bb;
+  color: #000000;
+}
+
+.fluidkeys.apple-light .hg-button:active {
+  background: #ffffff;
+  color: #000000;
+}
+
+.fluidkeys.apple-light.hg-layout-caps .hg-button.hg-button-lock,
+.fluidkeys.apple-light.hg-layout-shift .hg-button.hg-button-shift {
+  color: black;
+  background: #ffffff;
+}
+
+.fluidkeys.apple-light .hg-row:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.fluidkeys.apple-light .hg-row .hg-button-container,
+.fluidkeys.apple-light .hg-row .hg-button:not(:last-child) {
+  margin-right: 7px;
+}
+
+.fluidkeys.apple-light .hg-button {
+  height: 40px;
+  border: none;
+}
+
+.fluidkeys.apple-light .hg-functionBtn {
+  font-size: 12px;
+}
+
+.fluidkeys.apple-light .hg-button.hg-button-bksp:last-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-enter:last-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-shift:last-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-tab:last-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-alt:last-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-lock:last-of-type {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.fluidkeys.apple-light .hg-button.hg-button-bksp:first-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-enter:first-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-shift:first-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-tab:first-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-alt:first-of-type,
+.fluidkeys.apple-light .hg-button.hg-button-lock:first-of-type {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.fluidkeys.apple-light .hg-button.hg-button-space {
+  flex-grow: 10;
+}
