@@ -6,22 +6,27 @@
 .fluidkeys.apple-dark .hg-button,
 .fluidkeys.apple-dark .hg-button.hg-button-space {
   background: #6b6b6b;
-  color: white;
+  color: #ffffff;
 }
 
 .fluidkeys.apple-dark .hg-functionBtn {
   background: #464646;
-  color: white;
+  color: #ffffff;
 }
 
-.fluidkeys.apple-dark .hg-button:active {
+.fluidkeys.apple-dark .hg-button.hg-activeButton {
   background: #d4d4d4;
-  color: black;
+  color: #000000;
+}
+
+.fluidkeys.apple-dark .hg-functionBtn.hg-activeButton {
+  background: #6b6b6b;
+  color: #ffffff;
 }
 
 .fluidkeys.apple-dark.hg-layout-caps .hg-button.hg-button-lock,
 .fluidkeys.apple-dark.hg-layout-shift .hg-button.hg-button-shift {
-  color: black;
+  color: #000000;
   background: #d4d4d4;
 }
 

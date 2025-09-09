@@ -6,7 +6,7 @@ export default defineConfig({
   manifest: {
     name: "FluidKeys Virtual Keyboard",
     description: "A customizable virtual keyboard for Chrome.",
-    version: "0.1.0",
+    version: "0.2.1",
     permissions: ["storage"],
   },
   runner: {

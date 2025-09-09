@@ -14,7 +14,12 @@
   color: #000000;
 }
 
-.fluidkeys.apple-light .hg-button:active {
+.fluidkeys.apple-light .hg-button.hg-activeButton {
+  background: #a9b0bb;
+  color: #000000;
+}
+
+.fluidkeys.apple-light .hg-functionBtn.hg-activeButton {
   background: #ffffff;
   color: #000000;
 }
